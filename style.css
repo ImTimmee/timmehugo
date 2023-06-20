@@ -1,0 +1,158 @@
+body{
+    background-color: #f2f2f2;
+    font-family: 'Segoe UI', sans-serif;
+    position: relative;
+}
+
+
+.header-hero{
+    background-color: crimson;
+    color: white;
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.header-navbar-hero{
+    display: flex;
+    justify-content: center;
+}
+
+#header-inner-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+#list-item{
+    margin: 20px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-navbar-child li{
+    padding: 0;
+    list-style-type: none;
+}
+
+#home{
+    background: linear-gradient(to right, #fc03d3,#0330fc);
+    height: 70vw;
+    color: white;
+    text-align: center;
+}
+
+#text-home{
+    margin-top: 180px;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 50;
+    left: 50%;
+}
+
+
+.container-timme-hugo{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+#timme{
+    background-color: gray;
+    color: white;
+    margin-right: 20px;
+    width: 700px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#hugo{
+    background-color: grey;
+    color: white;
+    width: 700px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+#timme-img {
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#hugo-img {
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+#profiel-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: crimson;
+    color: white;
+    border-color: white;
+}
+
+#cambreur{
+    margin-top: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#cambreur-img {
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.cambreur-content {
+    float: right;
+}
+
+#cambreur-titel {
+    float: right;
+    color: white;
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+#footer{
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#parag-text{
+    margin: 10px;
+}
+
+#ordered-list{
+    float: left;
+    margin: 20px;
+}
+
+#mail-website{
+    margin: 10px;
+}
